@@ -2,3 +2,78 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
+body {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: hsl(234, 29%, 20%);
+    margin: 0;
+    padding: 0;
+}
+
+.mobile_header_img {
+    width: 100%;
+}
+
+.sign_up_title{
+    margin-top: 2rem;
+}
+
+.sign_up {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+    box-sizing: border-box;
+}
+
+.sign_up_info {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.sign_up_list_header {
+    margin-bottom: 1.5rem;
+}
+
+.sign_up_info_list {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.sign_up_form {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 1.2rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+button {
+    padding: 1.2rem;
+    border-radius: 10px;
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    margin-bottom: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
