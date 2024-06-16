@@ -77,21 +77,27 @@ input::placeholder {
 }
 
 .button {
-    padding: 1.2rem;
-    border-radius: 10px;
-    color: white;
     background: #242742;
-    margin-bottom: 2rem;
+    width: 327px;
+    height: 56px;
     width: 100%;
-    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 100%;
     box-sizing: border-box;
+    padding: 1.2rem;
+    margin-bottom: 2rem;
     cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-    background: linear-gradient(204.47deg, #FF6A3A 0%, #FF527B 100%);
-    border: 1px solid #FF527B;
+    background: linear-gradient(
+        204.47deg,
+        #ff6a3a 0%,
+        #ff527b 40%);
+    box-shadow: 0px 16px 32px 0px #ff615580;
 }
 
 .showError {
