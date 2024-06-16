@@ -120,11 +120,11 @@ input::placeholder {
     text-align: center; 
     padding-block: 1rem;
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: #ff527b; }
 
 @media only screen and (min-width: 768px) {
     .desktopBody {
-        background: #7b84a1;
+        background: hsl(235, 18%, 26%);
     }
 
     .desktop_header_img {
@@ -158,4 +158,9 @@ input::placeholder {
     .form {
         margin-top: 2rem;
     }
+
+    .attribution { 
+        color: white;
+    }
+    .attribution a { color: #ff527b; }
 }
