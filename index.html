@@ -16,33 +16,42 @@
   <div class="sign_up_container">
     <div>
       <img class="mobile_header_img" src="assets/images/illustration-sign-up-mobile.svg" />
+      <img class="desktop_header_img" src="assets/images/illustration-sign-up-desktop.svg" />
     </div>
 
     <div class="sign_up">
-      <h1 class="sign_up_title">Stay updated!</h1>
+      <h1 class="sign_up_header">Stay updated!</h1>
 
       <div class="sign_up_info">
         <p class="sign_up_list_header">Join 60,000+ product managers receiving monthly updates on:</p>
-          <div class="sign_up_info_list">
+        <ul>
+          <li class="sign_up_info_list">
             <img class="sign_up_list_icon" src="assets/images/icon-list.svg"/>
             <div class="list_message">Product discovery and building what matters</div>
-          </div>
-          <div class="sign_up_info_list">
+          </li>
+          <li class="sign_up_info_list">
             <img class="sign_up_list_icon" src="assets/images/icon-list.svg"/>
             <div class="list_message">Measuring to ensure updates are a success</div>
-          </div>
-          <div class="sign_up_info_list">
+          </li>
+          <li class="sign_up_info_list">
             <img class="sign_up_list_icon" src="assets/images/icon-list.svg"/>
             <div class="list_message">And much more!</div>
+          </li>
+        </ul>
+      </div>
+
+      <form class="form" id="signUpForm">
+          <div class="emailLabel">
+            <label for="email">Email address</label>
+            <div id="error-msg" class="noError">Valid email required</div>
           </div>
-      </div>
-
-      <div class="sign_up_form">
-        <label>Email address</label><br>
-        <input type="email" placeholder="email@company.com">
-      </div>
-
-      <button type="submit">Subscribe to monthly newsletter</button>
+          <input 
+            id="email" 
+            type="email" 
+            placeholder="email@company.com"
+            class="emailInput">
+        <button type="submit" class="button">Subscribe to monthly newsletter</button>
+      </form>
     </div>
 
   <!-- A confirmation email has been sent to ash@loremcompany.com. 
@@ -58,5 +67,6 @@
   </div>
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>

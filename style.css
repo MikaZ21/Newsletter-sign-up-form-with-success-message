@@ -10,24 +10,29 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 16px;
-    color: hsl(234, 29%, 20%);
+    color: #242742;
     margin: 0;
     padding: 0;
 }
 
 .mobile_header_img {
+    display: block;
     width: 100%;
 }
 
-.sign_up_title{
-    margin-top: 2rem;
+.desktop_header_img {
+    display: none;
+}
+
+.sign_up_header{
+    margin-top: 2.5rem;
+    font-size: 40px;
 }
 
 .sign_up {
     display: flex;
     flex-direction: column;
-    padding-inline: 2rem;
-    box-sizing: border-box;
+    padding-inline: 1.5rem;
 }
 
 .sign_up_info {
@@ -37,17 +42,31 @@ body {
 
 .sign_up_list_header {
     margin-bottom: 1.5rem;
+    line-height: 24px;
 }
 
 .sign_up_info_list {
     display: flex;
     gap: 1rem;
     margin-top: 1rem;
+    line-height: 24px;
+    list-style: none;
+    align-items: center;
 }
 
-.sign_up_form {
+.sign_up_list_icon {
+    width: 21px;
+    height: 21px;
+}
+
+.form {
     width: 100%;
-    box-sizing: border-box;
+}
+
+.emailLabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 label {
@@ -68,7 +87,7 @@ input::placeholder {
     color: #ccc;
 }
 
-button {
+.button {
     padding: 1.2rem;
     border-radius: 10px;
     color: white;
@@ -76,4 +95,20 @@ button {
     margin-bottom: 2rem;
     width: 100%;
     box-sizing: border-box;
+    cursor: pointer;
+}
+
+.showError {
+    display: block;
+    color: red;
+    font-size: 14px;
+}
+
+.noError {
+    display: none;
+}
+
+.error {
+    border: 1px solid red;
+    background: #FF6155;
 }
