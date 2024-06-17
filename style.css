@@ -22,16 +22,23 @@ body {
 
 .sign_up_header{
     font-size: 40px;
+    padding-top: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
 }
 
 .sign_up {
     display: flex;
     flex-direction: column;
-    padding-inline: 1.5rem;
+    padding-inline: 3rem;
 }
 
 .sign_up_info {
     width: 100%;
+}
+
+ul {
+    padding-left: 0;
 }
 
 .sign_up_info_list {
@@ -40,7 +47,6 @@ body {
     margin-top: 1rem;
     line-height: 24px;
     list-style: none;
-    align-items: center;
 }
 
 .sign_up_list_icon {
@@ -53,9 +59,11 @@ body {
 }
 
 .emailLabel {
+    font-size: 14px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: .5rem;
 }
 
 label {
@@ -119,12 +127,13 @@ input::placeholder {
     font-size: 11px; 
     text-align: center; 
     padding-block: 1rem;
+    padding-top: 0;
 }
 .attribution a { color: #ff527b; }
 
 @media only screen and (min-width: 768px) {
     .desktopBody {
-        background: hsl(235, 18%, 26%);
+        background: #36384e;
     }
 
     .desktop_header_img {
@@ -152,15 +161,17 @@ input::placeholder {
 
     .sign_up_header {
         font-size: 56px;
-        margin-bottom: 3rem;
+        margin-bottom: .5rem;
     }
 
     .form {
         margin-top: 2rem;
+        width: 95%;
     }
 
     .attribution { 
         color: white;
+        padding-top: 1rem;
     }
     .attribution a { color: #ff527b; }
 }
