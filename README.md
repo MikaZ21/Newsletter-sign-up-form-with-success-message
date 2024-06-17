@@ -3,6 +3,7 @@
 This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). 
 
 [Frontend Mentor](https://www.frontendmentor.io) 
+
 🔹Frontend Mentor challenges help you improve your coding skills by building realistic projects.🔹
 
 ## Table of contents
@@ -16,7 +17,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 ## Overview
 
 ### The challenge
-Your challenge is to build out this newsletter form and get it looking as close to the design as possible.
+Build out this newsletter form and get it looking as close to the design as possible.
 
 Users should be able to:
 
@@ -105,20 +106,25 @@ Ensuring the design and functionality worked across different web browsers.
 * Chrome
 
 ---
-<img alt="Desktop-active-states" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/91f2c479-d8ab-4918-89b3-b1137a4f57d1" width="30%" height="30%">*Desktop-active-states*
+<img alt="Desktop-active-states" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/91f2c479-d8ab-4918-89b3-b1137a4f57d1" width="70%" height="7%">*Desktop-active-states*
+
 ---
-<img alt="Desktop-Success" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/f88b4209-e6a8-47d0-8d62-41435857b58b" width="30%" height="30%">*Desktop-Success*
+<img alt="Desktop-Success" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/f88b4209-e6a8-47d0-8d62-41435857b58b" width="70%" height="70%">*Desktop-Success*
+
 ---
-<img alt="Desktop-Success-active" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/cf3ae2e7-f1a7-4001-bd7d-64cb06f6b2f3" width="30%" height="30%">*Desktop-Success-active*
+<img alt="Desktop-Success-active" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/cf3ae2e7-f1a7-4001-bd7d-64cb06f6b2f3" width="70%" height="70%">*Desktop-Success-active*
+
 ---
-<img alt="Desktop-error-states" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/cf3f7589-9891-4e59-b051-a776266ddb59" width="30%" height="30%">*Desktop-error-states*
+<img alt="Desktop-error-states" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/cf3f7589-9891-4e59-b051-a776266ddb59" width="70%" height="70%">*Desktop-error-states*
 
 Email validation: Display error messages and highlight incorrect inputs or left empty,
 ensuring a user-friendly form submission process.
 ---
-<img alt="Mobile-Screen" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/6b0aaf17-5593-49d3-8663-ac8498c8c5de" width="30%" height="30%">*Mobile-Screen*
+<img alt="Mobile-Screen" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/6b0aaf17-5593-49d3-8663-ac8498c8c5de" width="50%" height="50%">*Mobile-Screen*
+
 ---
-<img alt="Mobile-Success" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/69da9c3a-a143-4214-83d1-187326434270" width="30%" height="30%">*Mobile-Success*
+<img alt="Mobile-Success" src="https://github.com/MikaZ21/Results-Summary-Component/assets/93892096/69da9c3a-a143-4214-83d1-187326434270" width="50%" height="50%">*Mobile-Success*
+
 ---
 
 ## Acknowledgments
